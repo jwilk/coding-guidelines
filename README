@@ -14,4 +14,6 @@
 
 * Validate DocBook XML documents with ``xmllint --valid``.
 
+* When possible, the above checks should be automated using CI.
+
 .. vim:ft=rst ts=3 sts=3 sw=3 et
