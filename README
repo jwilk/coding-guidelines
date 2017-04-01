@@ -10,4 +10,8 @@
 
 * In release tarball, ``README`` should be in the ``doc`` subdirectory.
 
+* Validate reStructuredText documents with ``rst2xml --strict``.
+
+* Validate DocBook XML documents with ``xmllint --valid``.
+
 .. vim:ft=rst ts=3 sts=3 sw=3 et
