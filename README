@@ -16,6 +16,16 @@
 
 * Validate legacy DocBook XML documents with ``xmllint --valid``.
 
+* Check spelling with mwic_.
+
+* Check spelling with anorack_.
+
 * When possible, the above checks should be automated using CI.
+
+
+.. _mwic:
+   http://jwilk.net/software/mwic
+.. _anorack:
+   http://jwilk.net/software/anorack
 
 .. vim:ft=rst ts=3 sts=3 sw=3 et
