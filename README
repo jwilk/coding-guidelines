@@ -6,4 +6,8 @@
 
 * Avoid ``.txt`` extensions for files designed to be read directly.
 
+* In repo, top-level ``README`` should briefly describe the project.
+
+* In release tarball, ``README`` should be in the ``doc`` subdirectory.
+
 .. vim:ft=rst ts=3 sts=3 sw=3 et
