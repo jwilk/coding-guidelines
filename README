@@ -12,7 +12,9 @@
 
 * Validate reStructuredText documents with ``rst2xml --strict``.
 
-* Validate DocBook XML documents with ``xmllint --valid``.
+* DocBook XML documents should be avoided.
+
+* Validate legacy DocBook XML documents with ``xmllint --valid``.
 
 * When possible, the above checks should be automated using CI.
 
