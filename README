@@ -1,7 +1,7 @@
 * Avoid ``.rst`` extensions for files designed to be read directly
   (such as ``README.rst``).
 
-  If the file declares file format in the vim modeline (``vim:ft=rst``),
+  If the file declares file format in the vim modeline (e.g. ``vim:ft=rst``),
   GitHub no longer requires the extension to render the file correctly.
 
 * Avoid ``.txt`` extensions for files designed to be read directly.
