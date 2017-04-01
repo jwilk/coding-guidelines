@@ -4,4 +4,6 @@
   If the file declares file format in the vim modeline (``vim:ft=rst``),
   GitHub no longer requires the extension to render the file correctly.
 
+* Avoid ``.txt`` extensions for files designed to be read directly.
+
 .. vim:ft=rst ts=3 sts=3 sw=3 et
