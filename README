@@ -20,6 +20,12 @@
 
 * Check spelling with anorack_.
 
+* Check Python code with pydiatra_.
+
+* Check Python code with pyflakes_.
+
+* Check Python code with pylint_.
+
 * When possible, the above checks should be automated using CI.
 
 
@@ -27,5 +33,11 @@
    http://jwilk.net/software/mwic
 .. _anorack:
    http://jwilk.net/software/anorack
+.. _pydiatra:
+   http://jwilk.net/software/pydiatra
+.. _pyflakes:
+   https://github.com/PyCQA/pyflakes
+.. _pylint:
+   https://github.com/PyCQA/pylint
 
 .. vim:ft=rst ts=3 sts=3 sw=3 et
