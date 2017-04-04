@@ -19,7 +19,12 @@ Documentation
 
 * Validate legacy DocBook XML documents with ``xmllint --valid``.
 
+* Check URLs using urlycue_.
+
 * Copyright notices should be up-to-date.
+
+.. _urlycue:
+   http://jwilk.net/software/urlycue
 
 Spelling
 ========
