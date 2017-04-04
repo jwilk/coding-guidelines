@@ -26,6 +26,8 @@
 
 * Check Python code with pylint_.
 
+* Copyright notices should be up-to-date.
+
 * When possible, the above checks should be automated using CI.
 
 
