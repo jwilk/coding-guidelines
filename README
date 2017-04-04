@@ -1,3 +1,6 @@
+Documentation
+=============
+
 * Avoid ``.rst`` extensions for files designed to be read directly
   (such as ``README.rst``).
 
@@ -16,9 +19,22 @@
 
 * Validate legacy DocBook XML documents with ``xmllint --valid``.
 
+* Copyright notices should be up-to-date.
+
+Spelling
+========
+
 * Check spelling with mwic_.
 
 * Check spelling with anorack_.
+
+.. _mwic:
+   http://jwilk.net/software/mwic
+.. _anorack:
+   http://jwilk.net/software/anorack
+
+Python code
+===========
 
 * Check Python code with pydiatra_.
 
@@ -28,20 +44,16 @@
 
 * Python modules should have sensible ``__all__``.
 
-* Copyright notices should be up-to-date.
-
-* When possible, the above checks should be automated using CI.
-
-
-.. _mwic:
-   http://jwilk.net/software/mwic
-.. _anorack:
-   http://jwilk.net/software/anorack
 .. _pydiatra:
    http://jwilk.net/software/pydiatra
 .. _pyflakes:
    https://github.com/PyCQA/pyflakes
 .. _pylint:
    https://github.com/PyCQA/pylint
+
+Continuous integration
+======================
+
+* When possible, the above checks should be automated using CI.
 
 .. vim:ft=rst ts=3 sts=3 sw=3 et
