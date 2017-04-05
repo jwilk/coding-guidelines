@@ -9,9 +9,11 @@ Documentation
 
 * Avoid ``.txt`` extensions for files designed to be read directly.
 
-* In repo, top-level ``README`` should briefly describe the project.
+* ``doc/README`` should briefly describe the project.
 
-* In release tarball, ``README`` should be in the ``doc`` subdirectory.
+* There should be ``README`` → ``doc/README`` symlink.
+
+* The ``README`` symlink should not shipped in release tarballs.
 
 * Validate reStructuredText documents with ``rst2xml --strict``.
 
