@@ -23,6 +23,8 @@ Documentation
 
 * Check URLs using urlycue_.
 
+* Check that version numbers in documentation and in the code match.
+
 .. _urlycue:
    http://jwilk.net/software/urlycue
 
