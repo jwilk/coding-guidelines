@@ -23,15 +23,18 @@ Documentation
 
 * Check URLs using urlycue_.
 
+.. _urlycue:
+   http://jwilk.net/software/urlycue
+
+Copyright
+=========
+
 * In repo, there should be top-level ``LICENSE`` (or ``COPYING``) file.
 
 * In release tarballs, ``LICENSE`` (or ``COPYING``)
   should be moved to the ``doc`` subdirectory.
 
 * Copyright notices should be up-to-date.
-
-.. _urlycue:
-   http://jwilk.net/software/urlycue
 
 Spelling
 ========
