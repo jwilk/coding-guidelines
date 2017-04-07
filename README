@@ -81,6 +81,14 @@ Python code
 .. _pylint:
    https://github.com/PyCQA/pylint
 
+Release tarballs
+================
+
+* Files should have sane ownership (``root:root``)
+  and permissions (0644 or 0755).
+
+* The POSIX 1003.1-1988 (ustar) format should be used.
+
 Continuous integration
 ======================
 
