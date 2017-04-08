@@ -81,6 +81,20 @@ Python code
 .. _pylint:
    https://github.com/PyCQA/pylint
 
+CLI
+===
+
+* The ``--version`` option should print to stdout, not stderr.
+
+  Note that in Python prior to 3.4,
+  ``argparse`` doesn't do it correctly out of the box:
+  https://bugs.python.org/issue18920
+
+* The ``--version`` option should print versions of most important underlying
+  libraries.
+
+* The ``--help`` option should print to stdout, not stderr.
+
 Release tarballs
 ================
 
