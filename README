@@ -74,6 +74,8 @@ Python code
 
 * Python modules should have sensible ``__all__``.
 
+* Validate module long description with ``rst2xml --strict``.
+
 .. _pydiatra:
    http://jwilk.net/software/pydiatra
 .. _pyflakes:
