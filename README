@@ -83,6 +83,17 @@ Python code
 .. _pylint:
    https://github.com/PyCQA/pylint
 
+Perl code
+=========
+
+* Check Perl code with perlcritic_.
+
+* Every Perl script should start with ``no lib '.';``
+  as a defence against CVE-2016-1238.
+
+.. _perlcritic:
+   https://metacpan.org/release/Perl-Critic
+
 CLI
 ===
 
