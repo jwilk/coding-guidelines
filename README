@@ -97,6 +97,9 @@ CLI
 
 * The ``--help`` option should print to stdout, not stderr.
 
+* Programs that produce copious amount of output (and do nothing else besides
+  that) should have default signal handler for ``SIGPIPE``.
+
 Release tarballs
 ================
 
