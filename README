@@ -17,6 +17,8 @@ Documentation
 
 * Validate reStructuredText documents with ``rst2xml --strict``.
 
+* Validate POD documents with ``podchecker``.
+
 * DocBook XML documents should be avoided.
 
 * Validate legacy DocBook XML documents with ``xmllint --valid``.
