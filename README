@@ -113,6 +113,11 @@ CLI
 * Programs that produce copious amount of output (and do nothing else besides
   that) should have default signal handler for ``SIGPIPE``.
 
+Tests
+=====
+
+* Coverage file should be up to date.
+
 Release tarballs
 ================
 
