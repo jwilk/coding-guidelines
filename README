@@ -27,6 +27,8 @@ Documentation
 
 * Check that version numbers in documentation and in the code match.
 
+* Built manual pages should not include vim modelines.
+
 .. _urlycue:
    http://jwilk.net/software/urlycue
 
