@@ -29,6 +29,8 @@ Documentation
 
 * Built manual pages should not include vim modelines.
 
+* Check that the changelog is complete.
+
 .. _urlycue:
    http://jwilk.net/software/urlycue
 
