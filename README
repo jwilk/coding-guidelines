@@ -27,6 +27,10 @@ Documentation
 
 * Check that version numbers in documentation and in the code match.
 
+* Manual pages should include version numbers.
+
+* Manual page dates should be up-to-date.
+
 * Built manual pages should not include vim modelines.
 
 * Check that the changelog is complete.
