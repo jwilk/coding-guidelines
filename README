@@ -31,6 +31,8 @@ Documentation
 
 * Manual page dates should be up-to-date.
 
+* In manual pages, apostrophes should be written as ``'``, not ``\(aq``.
+
 * Built manual pages should not include vim modelines.
 
 * Check that the changelog is complete.
