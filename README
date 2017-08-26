@@ -77,6 +77,13 @@ Spelling
 .. _anorack:
    http://jwilk.net/software/anorack
 
+Portability
+===========
+
+Use ``perl -pi`` (rather than ``sed -i``) for in-place edits.
+
+Don't assume ``install`` is GNU install.
+
 Python code
 ===========
 
