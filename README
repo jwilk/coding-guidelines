@@ -80,9 +80,11 @@ Spelling
 Portability
 ===========
 
-Use ``perl -pi`` (rather than ``sed -i``) for in-place edits.
+* Use ``perl -pi`` (rather than ``sed -i``) for in-place edits.
 
-Don't assume ``install`` is GNU install.
+* Don't assume ``install`` is GNU install.
+  Don't use ``install -D`` because GNU install does something entirely different
+  that FreeBSD install.
 
 Python code
 ===========
@@ -96,6 +98,8 @@ Python code
 * Python modules should have sensible ``__all__``.
 
 * Validate module long description with ``rst2xml --strict``.
+
+* Don't assume that the Python interpreter is at ``/usr/bin/python``.
 
 .. _pydiatra:
    http://jwilk.net/software/pydiatra
@@ -111,6 +115,8 @@ Perl code
 
 * Every Perl script should start with ``no lib '.';``
   as a defence against CVE-2016-1238.
+
+* Don't assume that the Perl interpreter is at ``/usr/bin/perl``.
 
 .. _perlcritic:
    https://metacpan.org/release/Perl-Critic
