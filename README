@@ -151,6 +151,13 @@ Release tarballs
 
 * The POSIX 1003.1-1988 (ustar) format should be used.
 
+* Tarballs should be compressed with ``gzip -9n``.
+
+* XZ compression can be used if it would save at least 64 KiB.
+
+* For XZ compression, the least memory-intensive preset that still offers
+  optimal file size should be used. The ``-e`` option should be used.
+
 Continuous integration
 ======================
 
