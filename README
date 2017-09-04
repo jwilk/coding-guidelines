@@ -31,6 +31,8 @@ Documentation
 
 * Manual page dates should be up-to-date.
 
+* Manual page dates should be in the *YYYY*-*MM*-*DD* format.
+
 * In manual pages, apostrophes should be written as ``'``, not ``\(aq``.
 
 * ``rst2man`` should calls should use ``--input-encoding=UTF-8``.
