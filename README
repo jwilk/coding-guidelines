@@ -79,6 +79,15 @@ Spelling
 .. _anorack:
    http://jwilk.net/software/anorack
 
+Build system
+============
+
+* Autoconf-based packages should provide the ``private/autogen`` and
+  ``private/autoclean`` scripts.
+
+* The name of Autoconf configuration header files should be ``autoconf.h``
+  (or similar).
+
 Portability
 ===========
 
