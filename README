@@ -151,7 +151,11 @@ CLI
 * The ``--version`` option should print versions of most important underlying
   libraries.
 
+* Exit status for ``--version`` should be 0.
+
 * The ``--help`` option should print to stdout, not stderr.
+
+* Exit status for ``--help`` should be 0.
 
 * Programs that produce copious amount of output (and do nothing else besides
   that) should have default signal handler for ``SIGPIPE``.
