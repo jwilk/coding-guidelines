@@ -180,6 +180,11 @@ Release tarballs
 * For XZ compression, the least memory-intensive preset that still offers
   optimal file size should be used. The ``-e`` option should be used.
 
+VCS
+===
+
+* Most items in ``.gitignore`` should be anchored with ``/``.
+
 Continuous integration
 ======================
 
