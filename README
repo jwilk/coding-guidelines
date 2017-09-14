@@ -88,6 +88,8 @@ Build system
 * The name of Autoconf configuration header files should be ``autoconf.h``
   (or similar).
 
+* Environment variables such as ``CC``, ``CFLAGS``, etc. should be honoured.
+
 Portability
 ===========
 
