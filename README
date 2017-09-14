@@ -134,6 +134,11 @@ Perl code
 .. _perlcritic:
    https://metacpan.org/release/Perl-Critic
 
+C code
+======
+
+LFS should be enabled.
+
 CLI
 ===
 
