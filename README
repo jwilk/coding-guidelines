@@ -134,6 +134,18 @@ Perl code
 .. _perlcritic:
    https://metacpan.org/release/Perl-Critic
 
+Shell scripts
+=============
+
+* Check shell scripts with shellcheck_.
+
+* Shell scripts should use ``set -e``.
+
+* Shell scripts should use ``set -u``.
+
+.. _shellcheck:
+   http://www.shellcheck.net/
+
 C code
 ======
 
