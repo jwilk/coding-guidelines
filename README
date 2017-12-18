@@ -90,6 +90,8 @@ Build system
 
 * Environment variables such as ``CC``, ``CFLAGS``, etc. should be honoured.
 
+* Check if all the files (binaries, manual pages) are installed correctly.
+
 Portability
 ===========
 
