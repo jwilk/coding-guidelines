@@ -31,7 +31,8 @@ Documentation
 
 * Manual page dates should be up-to-date.
 
-* Manual page dates should be in the *YYYY*-*MM*-*DD* format.
+* English manual page dates should be in the *YYYY*-*MM*-*DD* format.
+  Manual pages must not use a middle-endian date format.
 
 * In manual pages, apostrophes should be written as ``'``, not ``\(aq``.
 
