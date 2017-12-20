@@ -36,7 +36,7 @@ Documentation
 
 * In manual pages, apostrophes should be written as ``'``, not ``\(aq``.
 
-* ``rst2man`` should calls should use ``--input-encoding=UTF-8``.
+* ``rst2man`` calls should use ``--input-encoding=UTF-8``.
 
 * Built manual pages should not include vim modelines.
 
