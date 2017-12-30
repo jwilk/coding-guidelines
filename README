@@ -157,6 +157,11 @@ C code
 * CFLAGS should be honored when linking
   (so that ``-fsanitize=address`` etc. work).
 
+* Check code with cppcheck_.
+
+.. _cppcheck:
+   http://cppcheck.sourceforge.net/
+
 CLI
 ===
 
