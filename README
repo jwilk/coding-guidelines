@@ -152,10 +152,10 @@ Shell scripts
 C code
 ======
 
-LFS build flags should be enabled.
+* LFS build flags should be enabled.
 
-CFLAGS should be honored when linking
-(so that ``-fsanitize=address`` etc. work).
+* CFLAGS should be honored when linking
+  (so that ``-fsanitize=address`` etc. work).
 
 CLI
 ===
