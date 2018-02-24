@@ -117,6 +117,8 @@ Python code
 
 * Don't assume that the Python interpreter is at ``/usr/bin/python``.
 
+* ``setup.py`` should not import any code from the source tree.
+
 .. _pydiatra:
    http://jwilk.net/software/pydiatra
 .. _pyflakes:
