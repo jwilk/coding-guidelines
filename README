@@ -196,6 +196,9 @@ Release tarballs
 * Files should have sane ownership (``root:root``)
   and permissions (0644 or 0755).
 
+* Directory entries should be sorted.
+  (For GNU tar, use ``--sort=name``.)
+
 * The POSIX 1003.1-1988 (ustar) format should be used.
 
 * Tarballs should be compressed with ``gzip -9n``.
