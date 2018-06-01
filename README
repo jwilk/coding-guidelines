@@ -211,7 +211,8 @@ Release tarballs
 VCS
 ===
 
-* Most items in ``.gitignore`` should be anchored with ``/``.
+* Most items in ``.gitignore`` and ``.gitattributes``
+  should be anchored with ``/``.
 
 Continuous integration
 ======================
