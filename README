@@ -102,6 +102,9 @@ Portability
   Don't use ``install -D`` because GNU install does something entirely different
   that FreeBSD install.
 
+* Makefiles can require GNU make,
+  but then they should fail with helpful error when run against BSD make.
+
 Python code
 ===========
 
