@@ -5,4 +5,6 @@ rst_options = --input-encoding=UTF-8 --output-encoding=UTF-8 --strict
 check:
 	$(rst2xml) $(rst_options) README /dev/null
 
+.error = GNU make is required
+
 # vim:ts=4 sts=4 sw=4 noet
