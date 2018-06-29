@@ -164,6 +164,8 @@ C code
 
 * Check code with cppcheck_.
 
+* Use ``tiparm()`` instead of ``tparm()``.
+
 .. _cppcheck:
    http://cppcheck.sourceforge.net/
 
