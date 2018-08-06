@@ -1,5 +1,5 @@
 rst2xml = $(notdir $(shell command -v rst2xml || echo rst2xml.py))
-rst_options = --input-encoding=UTF-8 --output-encoding=UTF-8 --strict
+rst_options = --input-encoding=UTF-8 --strict
 
 .PHONY: check
 check:
