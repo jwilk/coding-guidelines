@@ -151,6 +151,8 @@ Shell scripts
 
 * Shell scripts should use ``set -u``.
 
+* Use ``command -v``, not ``which``.
+
 .. _shellcheck:
    http://www.shellcheck.net/
 
