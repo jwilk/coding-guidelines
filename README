@@ -154,7 +154,7 @@ Shell scripts
 * Use ``command -v``, not ``which``.
 
 .. _shellcheck:
-   http://www.shellcheck.net/
+   https://www.shellcheck.net/
 
 C code
 ======
