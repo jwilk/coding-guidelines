@@ -192,6 +192,11 @@ CLI
 * Programs that produce copious amount of output (and do nothing else besides
   that) should have default signal handler for ``SIGPIPE``.
 
+* Programs should catch exceptions that could be caused by typical user or
+  environment errors (e.g., a file cannot be opened).
+
+  There should be command-line option to let these exceptions go through.
+
 Tests
 =====
 
