@@ -122,6 +122,12 @@ Python code
 
 * ``setup.py`` should not import any code from the source tree.
 
+* Check Python version at runtime.
+
+* Check Python version at install time.
+
+* Byte-compile source at install time.
+
 .. _pydiatra:
    http://jwilk.net/software/pydiatra
 .. _pyflakes:
