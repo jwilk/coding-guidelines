@@ -34,7 +34,13 @@ Documentation
 * English manual page dates should be in the *YYYY*-*MM*-*DD* format.
   Manual pages must not use a middle-endian date format.
 
-* In manual pages, apostrophes should be written as ``'``, not ``\(aq``.
+* In manual pages:
+
+  * apostrophes should be written as ``'``, not ``\(aq``;
+
+  * hyphens should be written as ``-``;
+
+  * minus-signs should be written as ``\-``.
 
 * ``rst2man`` calls should use ``--input-encoding=UTF-8``.
 
