@@ -152,7 +152,7 @@ Perl code
 * Don't assume that the Perl interpreter is at ``/usr/bin/perl``.
 
 .. _perlcritic:
-   https://metacpan.org/release/Perl-Critic
+   https://metacpan.org/dist/Perl-Critic
 
 Shell scripts
 =============
