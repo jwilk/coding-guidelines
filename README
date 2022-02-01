@@ -171,7 +171,7 @@ C code
 
 * LFS build flags should be enabled.
 
-* Environment variables such as ``CC``, ``CFLAGS``, etc. should be honoured.
+* Environment variables such as ``CC``, ``CFLAGS``, etc. should be honored.
 
 * ``CFLAGS`` should be honored when linking
   (so that ``-fsanitize=address`` etc. work).
