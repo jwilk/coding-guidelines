@@ -173,7 +173,7 @@ C code
 
 * Environment variables such as ``CC``, ``CFLAGS``, etc. should be honoured.
 
-* CFLAGS should be honored when linking
+* ``CFLAGS`` should be honored when linking
   (so that ``-fsanitize=address`` etc. work).
 
 * Check code with cppcheck_.
