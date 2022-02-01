@@ -95,6 +95,13 @@ Build system
 * The name of Autoconf configuration header files should be ``autoconf.h``
   (or similar).
 
+* ``autoconf`` should fail when 3rd-party macros are missing, e.g.::
+
+   m4_pattern_forbid(
+       [^PKG_CHECK_MODULES],
+       [undefined macro PKG_CHECK_MODULES; install pkg-config and run private/autogen]
+   )
+
 * Check if all the files (binaries, manual pages) are installed correctly.
 
 Portability
