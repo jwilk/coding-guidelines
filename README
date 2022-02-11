@@ -49,7 +49,7 @@ Documentation
 * Check that the changelog is complete.
 
 .. _urlycue:
-   http://jwilk.net/software/urlycue
+   https://jwilk.net/software/urlycue
 
 Copyright
 =========
@@ -82,9 +82,9 @@ Spelling
 * Check spelling with anorack_.
 
 .. _mwic:
-   http://jwilk.net/software/mwic
+   https://jwilk.net/software/mwic
 .. _anorack:
-   http://jwilk.net/software/anorack
+   https://jwilk.net/software/anorack
 
 Build system
 ============
@@ -140,7 +140,7 @@ Python code
 * Byte-compile source at install time.
 
 .. _pydiatra:
-   http://jwilk.net/software/pydiatra
+   https://jwilk.net/software/pydiatra
 .. _pyflakes:
    https://github.com/PyCQA/pyflakes
 .. _pylint:
