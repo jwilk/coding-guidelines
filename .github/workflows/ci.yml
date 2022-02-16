@@ -7,9 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: |
+    - name: install docutils
+      run: |
         pip install docutils
-    - run: |
+    - name: build
+      run: |
         make
 
 # vim:ts=2 sts=2 sw=2 et
