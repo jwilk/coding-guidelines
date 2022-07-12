@@ -188,7 +188,7 @@ C code
 * Use ``tiparm()`` instead of ``tparm()``.
 
 .. _cppcheck:
-   http://cppcheck.sourceforge.net/
+   https://cppcheck.sourceforge.io/
 
 CLI
 ===
