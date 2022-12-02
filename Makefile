@@ -3,7 +3,7 @@ rst_options = --input-encoding=UTF-8 --strict
 
 .PHONY: check
 check:
-	$(rst2xml) $(rst_options) README /dev/null
+	$(rst2xml) $(rst_options) README > /dev/null
 
 .error = GNU make is required
 
