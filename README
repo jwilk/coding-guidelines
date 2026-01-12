@@ -144,7 +144,7 @@ Python code
 .. _pyflakes:
    https://github.com/PyCQA/pyflakes
 .. _pylint:
-   https://github.com/PyCQA/pylint
+   https://github.com/pylint-dev/pylint
 
 Perl code
 =========
